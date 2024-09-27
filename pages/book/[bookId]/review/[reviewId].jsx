@@ -6,7 +6,7 @@ export default function Rewiew() {
 
   return (
     <h1>
-      第{bookId}本书的第{reviewId}条评论
+      This is the {reviewId}th review for the {bookId}th book.
     </h1>
   );
 }

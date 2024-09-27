@@ -1,3 +1,3 @@
 export default function () {
-  return <h1>这是禁书</h1>;
+  return <h1>This is a special book.</h1>;
 }

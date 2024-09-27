@@ -1,3 +1,3 @@
 export default function () {
-  return <h1>关于我们</h1>;
+  return <h1>About</h1>;
 }

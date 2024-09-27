@@ -4,5 +4,5 @@ export default function RewiewCate() {
   const router = useRouter();
   const bookId = router.query.bookId;
 
-  return <h1>第{bookId}本书的评论目录</h1>;
+  return <h1>This is reviews page for the {bookId}th book.</h1>;
 }

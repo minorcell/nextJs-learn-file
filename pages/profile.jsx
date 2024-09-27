@@ -1,3 +1,3 @@
 export default function () {
-  return <h1>个人中心</h1>;
+  return <h1>Profile</h1>;
 }

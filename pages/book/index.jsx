@@ -1,9 +1,17 @@
+import Link from "next/link";
+
 export default function () {
   return (
     <>
-      <h1>The first book.</h1>
-      <h1>The Second book.</h1>
-      <h1>The thried book.</h1>
+      <Link href={"/book/1"}>
+        <h1>The first book.</h1>
+      </Link>
+      <Link href={"/book/2"}>
+        <h1>The second book.</h1>
+      </Link>
+      <Link href={"/book/3"}>
+        <h1>The third book.</h1>
+      </Link>
     </>
   );
 }

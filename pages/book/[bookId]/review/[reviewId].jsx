@@ -6,7 +6,7 @@ export default function Rewiew() {
 
   return (
     <h1>
-      This is the {reviewId}th review for the {bookId}th book.
+      This is the - {reviewId}th - review for the {bookId}th book.
     </h1>
   );
 }
